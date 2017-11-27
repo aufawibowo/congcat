@@ -13,5 +13,6 @@ public:
 	Pocong();
 	Pocong(int x, int y, int width, int height);
 	void Draw(wxPaintDC &dc);
-	void Move(int xAmount, int yAmount, int maxX, int maxY);
+	void Move();
+	void Move2();
 };
